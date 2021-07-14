@@ -97,9 +97,9 @@ body{
     border-bottom: 30px solid transparent;
     box-sizing: border-box;
     transform: rotate(-98.09deg);
-    animation: rotate2 3s infinite ease-in;
+    animation: rotate 3s infinite ease-in;
 }
-@keyframes rotate2{
+@keyframes rotate{
     0%{
         transform: rotate(200deg);
     }
@@ -182,8 +182,13 @@ animation: up1 3s infinite ease-in;
 
 .circle{
 position: absolute;
-width: 127px;
-height: 127px;
+width: 50%;
+height: 28%;
 left: 101px;
 top: 409px;
+}
+.circle img{
+    width: 95%;
+    border-radius: 50%;
+    height: 100%;
 }
