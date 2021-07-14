@@ -3,7 +3,8 @@ body{
     width: 360px;
     height: 640px;
     
-    background: rgb(247, 197, 205);
+    
+    background: #eff0f4;
     }
     .round{
     position: absolute;
@@ -12,7 +13,7 @@ body{
     left: 108px;
     top: 22px;
     
-    background: rgb(247, 197, 205);
+    background: #eff0f4;
     border: 10px solid #F93E5F;
     border-radius: 50px;
     box-sizing: border-box;
