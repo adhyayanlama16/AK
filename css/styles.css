@@ -15,6 +15,15 @@ body{
     border: 12px solid #F93E5F;
     border-radius: 50px;
     box-sizing: border-box;
+    animation: bounce 3s infinite ease-in;
+}
+@keyframes bounce{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
 }
 
 .sidenav .s1{
@@ -117,5 +126,7 @@ width: 157px;
 height: 177px;
 left: 101px;
 top: 409px;
+
+
 
 }
