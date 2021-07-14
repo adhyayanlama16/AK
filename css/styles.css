@@ -97,9 +97,9 @@ body{
     border-bottom: 30px solid transparent;
     box-sizing: border-box;
     transform: rotate(-98.09deg);
-    animation: rotate 3s infinite ease-in;
+    animation: rotate2 3s infinite ease-in;
 }
-@keyframes rotate{
+@keyframes rotate2{
     0%{
         transform: rotate(200deg);
     }
