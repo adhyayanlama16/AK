@@ -9,7 +9,7 @@ body{
     width: 90px;
     height: 94px;
     left: 108px;
-    top: 22px;
+    top: -39px;
     
     background: #b2b9d8;
     border: 12px solid #F93E5F;
@@ -19,10 +19,10 @@ body{
 }
 @keyframes bounce{
     0%,100%{
-        transform: translateY(0);
+        transform: translateX(0);
     }
     50%{
-        transform: translateY(30px);
+        transform: translateX(30px);
     }
 }
 
