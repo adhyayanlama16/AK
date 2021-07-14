@@ -59,7 +59,7 @@ body{
     width: 0px;
     height: 0px;
     left: 30.01px;
-    top: 200.61px;
+    top: 205.61px;
     content: " ";
 
     background: #b2b9d8;
@@ -69,7 +69,19 @@ body{
     box-sizing: border-box;
     transform: rotate(-98.09deg);
     opacity: 0.5;
+    animation: rotateb 3s infinite ease-in;
     }
+@keyframes rotateb{
+        0%{
+            transform: rotate(200deg);
+        }
+        50%{
+            transform: rotate(340deg);
+        }
+        100%{
+            transform: rotate(200deg);
+        }
+}    
 .triangle1{
     position: relative;
     width: 0;
@@ -85,6 +97,18 @@ body{
     border-bottom: 30px solid transparent;
     box-sizing: border-box;
     transform: rotate(-98.09deg);
+    animation: rotate 3s infinite ease-in;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(200deg);
+    }
+    50%{
+        transform: rotate(340deg);
+    }
+    100%{
+        transform: rotate(200deg);
+    }
 }
 .text{
 position: absolute;
@@ -120,13 +144,46 @@ letter-spacing: -0.02em;
 
 color: #94396A;
 }
+.ballon{
+position: absolute;
+width: 66px;
+height: 105px;
+left: 267px;
+top: 113px;
+border-radius: 50%;
+background: #FF9A50;
+animation: up 3s infinite ease-in;
+}
+@keyframes up{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-30px);
+    }   
+}
+.str{
+position: absolute;
+width: 0px;
+height: 60px;
+left: 300px;
+top: 218px;
+border: 1px solid #0f0f0f;
+animation: up1 3s infinite ease-in;
+}
+@keyframes up1{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-30px);
+    }   
+}
+
 .circle{
 position: absolute;
-width: 157px;
-height: 177px;
+width: 127px;
+height: 127px;
 left: 101px;
 top: 409px;
-
-
-
 }
