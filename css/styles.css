@@ -2,23 +2,22 @@ body{
     position: relative;
     width: 360px;
     height: 640px;
-    
-    
-    background: #eff0f4;
+    background: #b2b9d8;
     }
-    .round{
+.round{
     position: absolute;
     width: 90px;
     height: 94px;
     left: 108px;
     top: 22px;
     
-    background: #eff0f4;
-    border: 10px solid #F93E5F;
+    background: #b2b9d8;
+    border: 12px solid #F93E5F;
     border-radius: 50px;
     box-sizing: border-box;
-    }
-    .sidenav .s1{
+}
+
+.sidenav .s1{
     padding: 0;    
     position: absolute;
     width: 32px;
@@ -26,8 +25,9 @@ body{
     left: 334px;
     top: 23px;
     border: 3px solid #000000;
-    }
-    .sidenav .s2{
+}
+
+.sidenav .s2{
     position: absolute;
     width: 32px;
     height: 0px;
@@ -35,8 +35,8 @@ body{
     top: 12px;
     
     border: 3.5px solid #000000;
-    }
-    .sidenav .s3{
+}
+.sidenav .s3{
         position: absolute;
         width: 32px;
         height: 0px;
@@ -44,4 +44,80 @@ body{
         top: 32px;
         
         border: 3.5px solid #000000;     
+}
+.triangle{
+    position: relative;
+    width: 0px;
+    height: 0px;
+    left: 30.01px;
+    top: 200.61px;
+    content: " ";
+
+    background: #b2b9d8;
+    border-top: 70px solid transparent;
+    border-left: 30px solid #5ac529;
+    border-bottom: 35px solid transparent;
+    box-sizing: border-box;
+    transform: rotate(-98.09deg);
+    opacity: 0.5;
     }
+.triangle1{
+    position: relative;
+    width: 0;
+    height: 9.27px;
+    left: 30.01px;
+    top: 90.61px;
+    content: " ";
+    
+   
+    background: #b2b9d8;
+    border-top: 70px solid transparent;
+    border-left: 30px solid #5ac529;
+    border-bottom: 30px solid transparent;
+    box-sizing: border-box;
+    transform: rotate(-98.09deg);
+}
+.text{
+position: absolute;
+width: 200.43px;
+height: 55.87px;
+left: 77.88px;
+top: 300px;
+
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 29px;
+line-height: 32px;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+transform: rotate(0.9deg);
+}
+.name{
+position: absolute;
+width: 201px;
+height: 69px;
+left: 75px;
+top: 340px;
+
+font-family: Merienda;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 69px;
+letter-spacing: -0.02em;
+
+color: #94396A;
+}
+.circle{
+position: absolute;
+width: 157px;
+height: 177px;
+left: 101px;
+top: 409px;
+
+
+
+}
